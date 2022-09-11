@@ -4999,10 +4999,11 @@ a img {
 .user {
     text-align: center;
     font-size: 60px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-columns: auto;
+    gap: 50px !important;
+    justify-content: center;
 }
 
 .user p {
@@ -5202,12 +5203,4 @@ a img {
 
     margin-left:23%;
 
-}
-
-.user{
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-template-rows: auto;
-    justify-content: center;
-    
 }
