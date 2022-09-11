@@ -5203,3 +5203,11 @@ a img {
     margin-left:23%;
 
 }
+
+.user{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    
+}
