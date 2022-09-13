@@ -111,6 +111,7 @@ audio:not([controls]) {
 
 img {
     border-style: none
+    
 }
 
 svg:not(:root) {
@@ -393,14 +394,14 @@ template {
     animation: fa-spin 1s infinite steps(8)
 }
 
-.fa-rotate-90 {
+/* .fa-rotate-90 {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg)
-}
+} */
 
-.fa-rotate-180 {
+/* .fa-rotate-180 {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -426,7 +427,7 @@ template {
     -webkit-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
     transform: scale(1, -1)
-}
+} */
 
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical,
@@ -3306,7 +3307,7 @@ template {
 }
 
 [class*=" devicon-"],
-[class^=devicon-] {
+/* [class^=devicon-] {
     font-family: devicon;
     speak: none;
     font-style: normal;
@@ -3316,7 +3317,7 @@ template {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
-}
+} */
 
 .devicon-express-original-wordmark:before {
     content: "\e93c"
@@ -5282,4 +5283,13 @@ a img {
       
       }
      
+  }
+
+
+  #prophoto{
+
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-bottom: 25px;
   }
