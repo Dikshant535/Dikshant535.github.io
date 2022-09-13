@@ -5204,3 +5204,82 @@ a img {
     margin-left:23%;
 
 }
+
+
+
+
+
+.container {
+    width: 90%;
+    background-color: #ddd;
+    margin: auto;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    
+  }
+  .container>div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .skills {
+    text-align: right;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .html {width: 70%; height: 5px; background-color: #04AA6D;}
+  .css {width: 80%; height: 5px; background-color: #2196F3;}
+  .js {width: 85%; height: 5px; background-color: #f44336;}
+  .php {width: 70%; height: 5px; background-color: #808080;}
+  
+  .dskill{
+  
+      border: 1px solid transparent;
+      width: 90%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+     
+  }
+  .dskill>div{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      width: 23%;
+      height: auto;
+      border-radius: 20px;
+  
+  }
+  .dskill>div>h2,p{
+      width: 90%;
+      margin: auto;
+      margin-bottom: 15px;
+      
+  }
+  .dskill>div>p{
+      width: 90%;
+      margin: auto;
+      margin-bottom: 15px;
+      
+  }
+  @media only screen and (min-width:550px) {
+      
+      .dskill>div{
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          width: 47%;
+          height: auto;
+          flex-direction: row ;
+          margin-bottom: 30px;
+          border-radius: 20px;
+      
+      }
+     
+  }
