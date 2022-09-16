@@ -2,7 +2,11 @@
 <html lang="en">
   
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<head>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+  <head>
 
     <title>Dikshant Singh Bisht</title>
 
@@ -17,37 +21,43 @@
 
       <div class="header-links">
         <a class="link" href="#about" data-scroll>About Me</a>
-        <a class="link" href="#skilll" data-scroll>Skills</a>
+        <a class="link" href="#teckstack" data-scroll>Tech Stack</a>
+        <a class="link" href="#skills" data-scroll>Skills</a>
         <a class="link" href="#projects" data-scroll>Projects</a>
+        <a class="link" href="#calgit" data-scroll>GitHub Calendar</a>
+        <a class="link" href="#gitana" data-scroll>GitHub Analytics</a>
         <a class="link" href="#contactt" data-scroll>Contact</a>
       </div>
 
     </div>
 
 
-    <div id="particles-js">
 
-      <div class="header">
-        <h1>
-          <span class="site-title">Dikshant Singh Bisht</span>
-          <span class="site-description"> Java Backend Developer </span>
-        </h1>
-        <div class="header-icons">
-          
-          <a  href="assets/resume/Dikshant.pdf" download>
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a>
-          <a aria-label="Send Email" href="mailto:bishtdikshant4@gmail.com" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
+    <section>
+      <div id="particles-js">
+
+        <div class="header">
+          <h1>
+            <span class="site-title">Dikshant Singh Bisht</span>
+            <span class="site-description"> Java Backend Developer </span>
+          </h1>
+          <div class="header-icons">
+            
+            <a  href="assets/resume/Dikshant.pdf" download>
+              <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+            </a>
+            <a aria-label="Send Email" href="mailto:bishtdikshant4@gmail.com" target="_blank"
+              ><i class="icon fa fa-envelope"></i
+            ></a>
+          </div>
+          <div class="header-links">
+            <a class="link" >Resume</a>
+            <a class="link" >Mail</a>
+          </div>
         </div>
-        <div class="header-links">
-          <a class="link" >Resume</a>
-          <a class="link" >Mail</a>
-        </div>
+        <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
       </div>
-      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-    </div>
+    </section>  
 
     <!-- About Section -->
     <section id="about">
@@ -85,37 +95,40 @@
       </section>
       
       <!-- Skills Section -->
-      <section id="skilll">
+      <section id="teckstack">
 
-      <!-- User Specifics -->
-      <h2 style="Text-align:center;margin-top:70px;">Tech Stack</h2>
-      <div class="user">
-        <!-- Technology Stack #1: Languages -->
-       
-        <div class="tech" >
-          
-          <img class="techimg" src="assets/img/Java.png" alt="">
-          <img src="assets/img/springboot.png" alt="">
-          <img class="techimg" src="assets/img/hiberate.png" alt="">
-          <img class="techimg" src="assets/img/JS.png" alt="">
-
-          <img class="techimg" src="assets/img/html.png" alt="">
-          <img src="assets/img/css.png" alt="">
-         
-        </div>
-      </div>
+       <!-- User Specifics -->
+        <h2 style="Text-align:center;margin-top:70px;">Tech Stack</h2>
+        <div class="user">
+          <!-- Technology Stack #1: Languages -->
         
-      </div>
+          <div class="tech" >
+            
+            <img class="techimg" src="assets/img/java1.png" alt="java">
+            <img class="techimg" src="assets/img/springboot.png" alt="springBoot">
+            <img class="techimg" src="assets/img/hiberate.png" alt="hibernate">
+            <img class="techimg" src="assets/img/JS.png" alt="javascript">
+
+            <img class="techimg" src="assets/img/html.png" alt="html">
+            <img class="techimg" src="assets/img/css.png" alt="css">
+            <img class="techimg" src="assets/img/MySQL.png" alt="MySQL">
+            <img class="techimg" src="assets/img/github.png" alt="github">
+          
+          </div>
+        </div>
+      </section>  
+        
+      
 
       <!-- Skills Section-->
-      <section>
+      <section id="skills">
         
         <h2 style="Text-align:center;margin-top:70px;">Skills</h2>
         <div class="dskill">
   
           <div>
             <h2>Java Development</h2>
-            
+            <h4>Java | Spring Boot | Hiberbate | MySQL</h4>
             <div class="container">
               <div class="skills css">80%</div>
             </div>
@@ -125,6 +138,7 @@
           <div>
   
             <h2>Front End Development</h2>
+            <h4>HTML | CSS | JavaScript</h4>
             <div class="container">
               <div class="skills js">83%</div>
             </div>
@@ -134,6 +148,7 @@
           <div>
   
             <h2>DSA And Algorithms</h2>
+            <h4>Array | Stack | Queue | LinkedList</h4>
             <div class="container">
               <div class="skills html">70%</div>
             </div>
@@ -143,6 +158,8 @@
           <div>
   
             <h2>Communication Skills</h2>
+            <h4>Team Management | Team Collaboration | Time
+              Management | Decision Making</h4>
             <div class="container">
               <div class="skills php">70%</div>
             </div>
@@ -270,7 +287,67 @@
 
 
     </section>
-      
+
+
+    <section id="calgit">
+      <h2 style="Text-align:center;margin-top:70px;">Github Contribution</h2>
+      <div class="calendar">
+        
+    </div>
+
+
+    </section>
+
+    <section id="gitana">
+      <h2 style="Text-align:center;margin-top:70px;">Github Analytics</h2>
+      <div id="anagit">
+
+        <img class="angit" src="https://github-readme-stats.vercel.app/api?username=dikshant535&theme=buefy&show_icons=true" alt="">
+        <img class="angit" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dikshant535&theme=buefy&layout=compact" alt="">
+        
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+  <section id="contactt">
+
+    <h2 style="Text-align:center;margin-top:70px;">Contact Me</h2>
+    <div class="">
+     
+      <div class="condv">
+
+        <a aria-label="Send Email" href="mailto:bishtdikshant4@gmail.com" target="_blank"  >
+          <img id ="cimg" class="" src="assets/img/gmail.png" alt="gmail">
+        </a>
+
+        <a href="https://www.linkedin.com/in/dikshant-singh-bisht-25b66611a/" target="_blank"  style="text-decoration:none ">
+          <img id ="cimg" class="techimg1" src="assets/img/Linkedin-logo.png" alt="LinkedIn">
+        </a>
+
+        <a href="https://github.com/Dikshant535" target="_blank"  style="text-decoration:none ">
+          <img id ="cimg" style="height:135px;width:140px;margin-bottom:20px;margin-right:20px;"  src="assets/img/hubgit.png" alt="GitHub">
+        </a>
+
+      </div>
+    </div>
+
+  </section>
+
+<footer class="footer">
+  <p>© Dikshant Singh Bisht. All right reserved</p>
+</footer>
+    
   </body>
+  <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+  </script>
 
 </html>
+<script>
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "Dikshant535", { responsive: true });
+
+  
+</script>

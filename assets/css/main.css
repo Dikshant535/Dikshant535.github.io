@@ -5005,6 +5005,8 @@ a img {
     grid-template-columns: auto;
     gap: 50px !important;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .user p {
@@ -5255,7 +5257,7 @@ a img {
   }
   .dskill>div{
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      width: 23%;
+      width: 24%;
       height: auto;
       border-radius: 20px;
   
@@ -5272,6 +5274,7 @@ a img {
       margin-bottom: 15px;
       
   }
+
   @media only screen and (min-width:550px) {
       
       .dskill>div{
@@ -5286,11 +5289,56 @@ a img {
      
   }
 
-
   #prophoto{
 
     width: 450px;
     height: 500px;
     border-radius: 50%;
     margin-bottom: 25px;
+  }
+  
+
+  #calgit{
+    width: 85%;
+    margin: auto;
+    /* margin-bottom: 30px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 45px;
+  }
+  h4{
+
+    margin-left: 30px;
+
+  }
+
+  
+
+  .condv{
+
+    border: 1px solid transparent;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 25px;
+
+  }
+
+  #anagit{
+
+    width: 85%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    
+  }
+  .angit{
+
+    width: 48%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
   }
